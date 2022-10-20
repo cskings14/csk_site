@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const Navbar = () => {
     return ( 
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -5,10 +7,10 @@ const Navbar = () => {
                 <h1>Christian King</h1>
             </div>
 
-            <a>About</a>
-            <a>Contact</a>
-            <a>Repository</a>
-            <a>Tutorial</a>
+            <Link href="/about"><a>About</a></Link>
+            <Link href="/contact"><a>Contact</a></Link>
+            <Link href="https://github.com/cskings14"><a>Repository</a></Link>
+            <Link href="/tutorial"><a>Tutorial</a></Link>
 
         </nav>
      );
