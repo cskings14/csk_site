@@ -1,5 +1,5 @@
 // import type { NextPage } from 'next'
-// import Head from 'next/head'
+import Head from 'next/head'
 // import Image from 'next/image'
 // import styles from '../styles/Home.module.css'
 import Navbar from '../comps/Navbar'
@@ -8,12 +8,20 @@ import styles from '../styles/Home.module.css'
 
 const Home = () => {
   return (
+    <>
+
+    <Head>
+      <title> CK Portfolio | Home </title>
+      
+    </Head>
     <div className={styles.container}>
       {/* <Navbar /> */}
       <h1>Homepage</h1>
       <p>BLAH BLAH BLAH</p>
       {/* <Footer /> */}
     </div>
+
+    </>
   )
 }
 
