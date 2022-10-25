@@ -4,10 +4,11 @@
 // import styles from '../styles/Home.module.css'
 import Navbar from '../comps/Navbar'
 import Footer from '../comps/Footer'
+import styles from '../styles/Home.module.css'
 
 const Home = () => {
   return (
-    <div>
+    <div className={styles.container}>
       {/* <Navbar /> */}
       <h1>Homepage</h1>
       <p>BLAH BLAH BLAH</p>
