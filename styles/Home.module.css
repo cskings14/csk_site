@@ -2,6 +2,14 @@
   padding: 0 2rem;
 }
 
+.div {
+  width: 1000px;
+  height: 1000px;
+  padding: 10px;
+  margin: 0;
+  justify-content: center;
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
