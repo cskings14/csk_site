@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
     <Head>
-      <title> CHristian K </title>
+      <title> Christian K </title>
     </Head>
 
 
