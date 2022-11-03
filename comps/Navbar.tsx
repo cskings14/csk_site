@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
+// import * as Scroll from 'react-scroll';
+// import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 const Navbar = () => {
     return (

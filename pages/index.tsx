@@ -4,11 +4,12 @@ import Head from 'next/head'
 // import About, Contact, Projects, Title from '../comps/sections/'
 import Title from '../comps/sections/Title'
 
+
 const Home = () => {
   return (
     <>
     <Head>
-      <title> Christian K </title>
+      <title> CK Portfolio </title>
     </Head>
 
 
