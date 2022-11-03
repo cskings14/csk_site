@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 const Title = () => {
     return ( 
         <div className={styles.grid}>
-                <Image className={styles.picture} src='/code.jpg' width={500} height={500} />
+                <Image className={styles.picture} src='/code.png' width={500} height={500} />
                 <motion.div className={styles.text}
                 animate={{ x: [50, 150, 50], opacity: 1, scale: 1 }}
                 transition={{
