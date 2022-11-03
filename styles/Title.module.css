@@ -1,20 +1,21 @@
 .picture {
     border: 10px white solid;
     left: 50px;
+    float: left;
    
 }
 /* .picture:hover {
     opacity: 75%;
 } */
 .text {
-    color:aliceblue;
+    color:rgb(255, 255, 255);
     position: absolute;
     top: 200px;
     left: 16px;
 }
 .spline {
     float: right;
-    padding-right: 300px
+    
 }
 
 /* .grid {
