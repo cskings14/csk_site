@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <nav>
             <div className="logo">
-                <Image src='/Kingtin-logos_transparent.png' width={128} height={77} />
+                
             </div>
             
                 <Link href="/about"><a>About</a></Link>

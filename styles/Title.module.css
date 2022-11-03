@@ -1,0 +1,23 @@
+.picture {
+    border: 10px white solid;
+    left: 50px;
+   
+}
+.picture:hover {
+    opacity: 75%;
+}
+.text {
+    color:aliceblue;
+    position: absolute;
+    top: 200px;
+    left: 16px;
+}
+.spline {
+    float: right;
+    padding-right: 300px
+}
+
+/* .grid {
+    
+    
+} */
