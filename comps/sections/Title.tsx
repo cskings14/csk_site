@@ -6,19 +6,13 @@ import { motion } from 'framer-motion';
 
 const Title = () => {
     return ( 
-        <div className={styles.grid}>
-                {/* <Image className={styles.picture} src='/code.png' width={500} height={500} /> */}
-                {/* <motion.div className={styles.text}
-                animate={{ x: [50, 150, 50], opacity: 1, scale: 1 }}
-                transition={{
-                    duration: 5,
-                    delay: 0.3,
-                    ease: [0.5, 0.71, 1, 1.5],
-                }}
-                initial={{ opacity: 0, scale: 0.5 }}
-                whileHover={{ scale: 1.2 }}>I am Christian King</motion.div> */}
-                <motion.div className={styles.name}>I Am Christian King</motion.div>
+        <div >
                 <Spline width={500} height={500} className={styles.spline} scene="https://prod.spline.design/1OZ7ne96bkvlkwAj/scene.splinecode" />
+                <motion.div className={styles.name}>Hi There, I am Christian King <span className={styles.wave}>&#9995;</span></motion.div>
+                <motion.div className={styles.job}>Fullstack Developer (Django / React)</motion.div>
+                <div className={styles.grid}>
+                    {/*This is where we are going to have both what I code and a small picture*/}
+                </div>
         </div>
      );
 }

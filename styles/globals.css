@@ -30,21 +30,10 @@ nav a {
 
 
 
-footer {
-  
-  display: inline-block;
-  text-align: center;
-  margin-top: 60px;
-  color: rgb(231, 230, 230);
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
 
-  /* border-top: 1px solid #eaeaea; */
-}
 
 .footer-list {
+  padding-top: 200px;
   display: flex;
   gap: 5px;
   text-align: center;
