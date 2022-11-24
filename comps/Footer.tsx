@@ -1,9 +1,13 @@
 const Footer = () => {
-    return ( 
+    return (
         <footer>
-            <p>Copyright 2022</p>
+            <ul className="footer-list">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ul>
         </footer>
-     );
+    );
 }
- 
+
 export default Footer;

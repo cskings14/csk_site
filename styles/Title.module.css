@@ -1,24 +1,15 @@
-.picture {
-    border: 10px white solid;
-    left: 50px;
-    float: left;
-   
-}
-/* .picture:hover {
-    opacity: 75%;
-} */
-.text {
+
+.name {
     color:rgb(255, 255, 255);
-    position: absolute;
-    top: 200px;
-    left: 16px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 .spline {
-    float: right;
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     
 }
 
-/* .grid {
-    
-    
-} */

@@ -1,0 +1,33 @@
+.button {
+    background: rgb(200, 0, 0);
+    border: 0;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: background-color 2s;
+    transition: box-shadow 1s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    
+
+}
+.button:hover {
+    opacity: 0.8;
+    background-color: rgb(5, 1, 0);
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.15);
+    
+}
+
+.button:active {
+    opacity: 0.5;
+}
+.bolder {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    
+}

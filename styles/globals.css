@@ -9,10 +9,7 @@ a {
   color: rgb(242, 238, 238);
   text-decoration: none;
 }
-.content {
-  max-width: 960px;
-  margin: 0 auto;
-}
+
 nav {
 
   margin: 10px auto 80px;
@@ -22,19 +19,41 @@ nav {
   align-items: flex-end;
   /* border-bottom: 1px solid #ddd; */
   color:rgb(252, 246, 246);
+  vertical-align: top;
 }
+
 nav a {
   margin-left: 12px;
 }
-nav .logo {
-  margin-right: auto;
-}
+
+
+
+
+
 footer {
   
-  display: block;
+  display: inline-block;
   text-align: center;
-  padding: 30px 0;
   margin-top: 60px;
   color: rgb(231, 230, 230);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
   /* border-top: 1px solid #eaeaea; */
 }
+
+.footer-list {
+  display: flex;
+  gap: 5px;
+  text-align: center;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+
+}
+.footer-list li:hover {
+  text-decoration: underline;
+}
+  
