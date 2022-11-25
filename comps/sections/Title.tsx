@@ -8,7 +8,7 @@ const Title = () => {
     return ( 
         <div >
                 <Spline width={500} height={500} className={styles.spline} scene="https://prod.spline.design/1OZ7ne96bkvlkwAj/scene.splinecode" />
-                <motion.div className={styles.name}>Hi There, I am Christian King <span className={styles.wave}>&#9995;</span></motion.div>
+                <motion.div className={styles.name}>Hello, I am Christian King <span className={styles.wave}>&#9995;</span></motion.div>
                 <motion.div className={styles.job}>Fullstack Developer (Django / React)</motion.div>
                 <div className={styles.grid}>
                     {/*This is where we are going to have both what I code and a small picture*/}
