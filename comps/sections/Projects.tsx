@@ -2,19 +2,23 @@ import React from 'react';
 import { useState } from 'react';
 import styles from "../../styles/Projects.module.css"
 import Image from 'next/image';
-import Link from 'next/link';
 import  ProjectData  from "./ProjectData";
+import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa';
 
-const Projects = () => {
-    const []
-    const length = slide.length;
+
+
+const Projects = ({ slides }: { slides: any }) => {
+    const [slide, setSlide] = useState(0);
+    const length = slides.length;
+
     return (
         <div className={styles.project}>
+        
         {ProjectData.map((slide, index) => {
             return (
                 <>
-                <Image src={slide.image} width={250} height={250} />
-                <div>{slide.about}</div>
+                <Image src={slide.image} width={250} height={250} className={styles.image} />
+                <div className={styles.info}>{slide.about}</div>
                 <a href={slide.url}>GitHub</a>
                 </>
             );
