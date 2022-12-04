@@ -1,11 +1,49 @@
 import React from 'react';
-import { CarouselProvider, Slider, Slide, ButtonBack, DotGroup, ButtonNext, ImageWithZoom } from 'pure-react-carousel';
+import { useState } from 'react';
 import styles from "../../styles/Projects.module.css"
 import Image from 'next/image';
+import Link from 'next/link';
+import  ProjectData  from "./ProjectData";
 
 const Projects = () => {
+    const []
+    const length = slide.length;
     return (
-        <div className={styles.box}>
+        <div className={styles.project}>
+        {ProjectData.map((slide, index) => {
+            return (
+                <>
+                <Image src={slide.image} width={250} height={250} />
+                <div>{slide.about}</div>
+                <a href={slide.url}>GitHub</a>
+                </>
+            );
+        })};
+        </div>
+    );
+}
+
+
+export default Projects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* <div className={styles.box}>
             <CarouselProvider
                 visibleSlides={1}
                 totalSlides={3}
@@ -21,21 +59,19 @@ const Projects = () => {
                 </p>
                 <Slider className={styles.slider}>
                     <Slide index={0}>
-                        <Image src='/code.png' width={250} height={250} />
+                        <img src='/dog.png' width={250} height={250} />
                     </Slide>
                     <Slide index={1}>
-                        <ImageWithZoom src="./media/img02.jpeg" />
+                        <img src="/cat.png" width={250} height={250}/>
                     </Slide>
                     <Slide index={2}>
-                        <ImageWithZoom src="./media/img03.jpeg" />
+                        <img src="/fish.png" width={250} height={250}/>
                     </Slide>
                 </Slider>
                 <ButtonBack>Back</ButtonBack>
                 <ButtonNext>Next</ButtonNext>
                 <DotGroup />
             </CarouselProvider>
-        </div>
-    );
-}
+        </div> */}
 
-export default Projects;
+// was not worth it to use the package instead of making it myself
