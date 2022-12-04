@@ -15,8 +15,11 @@ const Projects = ({ slides }: { slides: any }) => {
         <div className={styles.project}>
         
         {ProjectData.map((slide, index) => {
+     
             return (
-                <>
+                <>      
+                <FaArrowAltCircleLeft />
+                <FaArrowAltCircleRight />
                 <Image src={slide.image} width={250} height={250} className={styles.image} />
                 <div className={styles.info}>{slide.about}</div>
                 <a href={slide.url}>GitHub</a>
