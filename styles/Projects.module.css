@@ -1,3 +1,52 @@
-.box {
-    
+.image {
+    border-radius: 10px;
+
 }
+
+.project {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  } 
+
+  .info {
+    opacity: 0;
+    transition-duration: 1s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  /* .url {
+    visibility: hidden;
+  } */
+
+  .info:hover {
+   opacity: 1;
+   transition-duration: 1s;
+   color: black;
+  }
+  
+
+
+  .rclick{
+    position: absolute;
+    top: 135%;
+    right: 32px;
+    font-size: 7rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .lclick{
+    position: absolute;
+    top: 135%;
+    left: 32px;
+    font-size: 7rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
