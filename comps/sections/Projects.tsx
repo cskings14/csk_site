@@ -24,26 +24,27 @@ const Projects = ({ slides }: { slides: any }) => {
     }
 
     return (
-        <section className={styles.project}>
+        <div className={styles.project}>
             <FaArrowAltCircleLeft onClick={prevSlide} className={styles.lclick} />
             {ProjectData.map((slide, index) => {
                 return (
                     <div
-                        className={index === current ? 'slide active' : 'slide'}
+                        // className={index === current ? 'slide active' : 'slide'}
+                        className={styles.active}
                         key={index}
                     >
                         {index === current && (
                             <>
                                 <Image src={slide.image} className={styles.image} width={800} height={550} />
                                 <div className={styles.info}>{slide.about}</div>
-                                <a href={slide.url}>Link To Github</a>
+                                <a href={slide.url} className={styles.url} >Link To Github</a>
                             </>
                         )}
                     </div>
                 )
             })}
-            <FaArrowAltCircleRight onClick={nextSlide} className={styles.rclick} />
-        </section>
+           <FaArrowAltCircleRight onClick={nextSlide} className={styles.rclick} />
+        </div>
     );
 }
 
