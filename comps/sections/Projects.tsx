@@ -35,9 +35,10 @@ const Projects = ({ slides }: { slides: any }) => {
                     >
                         {index === current && (
                             <>
+                                <div className={styles.title} >Come check out my projects!</div>
                                 <Image src={slide.image} className={styles.image} width={800} height={550} />
                                 <div className={styles.info}>{slide.about}</div>
-                                <a href={slide.url} className={styles.url} >Link To Github</a>
+                                <a href={slide.url} className={styles.url} ><button>Link To Github</button></a>
                             </>
                         )}
                     </div>

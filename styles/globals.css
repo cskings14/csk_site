@@ -43,7 +43,11 @@ nav a {
 
 }
 
-.footer-list a {
-  padding-left: 10px;
-  padding-right: 10px;
+.resume {
+  cursor: pointer;
+}
+
+.num-email {
+  padding-left: 15px;
+  text-align: center;
 }
