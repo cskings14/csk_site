@@ -20,7 +20,7 @@ const Footer = () => {
 
     return (
     <footer>
-        <ul className="footer-list">
+        <ul className="footer-list" id='footer'>
             <a href="https://www.linkedin.com/in/cskings/"><Image src="/linkedin.png" width={50} height={50} /></a>
             <a href="https://github.com/cskings14"><Image src="/github.png" width={50} height={50} /></a>
             <Image src="/resume.png" width={50} height={50} onClick={onButtonClick} className="resume" />

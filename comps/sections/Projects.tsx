@@ -24,7 +24,7 @@ const Projects = ({ slides }: { slides: any }) => {
     }
 
     return (
-        <div className={styles.project}>
+        <div className={styles.project} id="projects">
             <FaArrowAltCircleLeft onClick={prevSlide} className={styles.lclick} />
             {ProjectData.map((slide, index) => {
                 return (

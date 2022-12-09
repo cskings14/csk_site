@@ -6,14 +6,25 @@ import Image from 'next/image';
 
 const Navbar = () => {
     return (
-        <nav >
-                {/* <Image src="/ck-logo.png" width={50} height={50} /> */}
-                {/* <Link href="/about"><a>About</a></Link>
-                <Link href="/contact"><a>Projects</a></Link>
-                <Link href="https://github.com/cskings14"><a>Find Me</a></Link> */}
-                
-            
-        </nav>
+        <div className='header'>
+            <nav className='navbar'>
+                <ul>
+                    <li className='nav-item'>
+                        <Link to='title' smooth={true} duration={500}>Title</Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='about' smooth={true} duration={500} offset={-120}>About</Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='projects' smooth={true} duration={500} offset={150} >Projects</Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='footer' smooth={true} duration={500}>Links</Link>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
     );
 }
 
