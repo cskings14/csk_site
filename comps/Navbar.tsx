@@ -1,4 +1,4 @@
-import {Link} from 'react-scroll/modules';
+import {Link} from 'react-scroll';
 import Image from 'next/image';
 
 // import * as Scroll from 'react-scroll';
