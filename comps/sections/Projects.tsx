@@ -38,7 +38,7 @@ const Projects = ({ slides }: { slides: any }) => {
                                 <div className={styles.title} >Come check out my projects!</div>
                                 <Image src={slide.image} className={styles.image} width={800} height={550} />
                                 <div className={styles.info}>{slide.about}</div>
-                                <a href={slide.url} className={styles.url} ><button>Link To Github</button></a>
+                                <a href={slide.url} className={styles.url} ><button>Link</button></a>
                             </>
                         )}
                     </div>

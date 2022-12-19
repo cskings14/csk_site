@@ -5,10 +5,10 @@ const About = () => {
     return ( 
         <div className={styles.layout} id='about'>
             <div className={styles.paragraphs}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra non lacus vitae convallis. Morbi vulputate egestas massa, vitae pharetra lorem sagittis quis. <p></p>Fusce facilisis accumsan leo a facilisis. Praesent sed tristique lacus, nec porta eros. Sed placerat orci ac finibus eleifend. Mauris varius ultrices euismod. Maecenas laoreet metus sit amet leo tristique imperdiet. Ut interdum velit vitae tellus facilisis tincidunt. Maecenas magna est...
+            I started coding during the pandemic to cure my boredom. This hobby would later turn into a fruitful passion. I have a knack for understanding new software and have a deep passion for learning. Starting out, I learned python (out of school) and java (in school). As my base foundation of programming grew, I transitioned into different languages like C/Flutter and frameworks in which I use today.<p></p>Outside of programming, I spend my time playing music with my favorite genre being jazz. I have played the trumpet for nearly a decade. I am also learning the piano. I also have a profound love for video games. Video games are actually my reason for finding out about programming. 
             </div>
             <div>
-                <Image src='/code.png' width={250} height={250} className={styles.selfie} />
+                <Image src='/mepic.png' width={250} height={250} className={styles.selfie} />
             </div>
         </div>
      );
