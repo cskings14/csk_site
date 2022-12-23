@@ -2,7 +2,7 @@
 
 export const ProjectData = [
     {   
-        image: '/portfolio.png',
+        image: '/spline.png',
         about: 'Portfolio Website: Hey, this is the website you are on right now (portfolio website inception). I made this with Typescript as the programming language and next.js (react) as the frontend framework. Some of the main packages used were Spline (for the goofy 3D model you see at the top), react scroll (for smooth scrolling at the top, and framer motion (for custom div movement).',
         url: 'https://github.com/cskings14/csk_site'
     },
